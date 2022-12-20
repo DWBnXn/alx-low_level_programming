@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- *print_alphabet - This program prints the english alphabets a-z
- * Return: void
+ * print_alphabet - writes the alphabet
+ *
+ * Description: prints the alphabet with the _putchar function in_putchar.c
  */
 void print_alphabet(void)
 {
-	char alpha;
+	char c;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	for (c = 97; c < 123; c++)
 	{
-		_putchar(alpha);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
